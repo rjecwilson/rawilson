@@ -25,7 +25,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: MS in Environmental Systems Engineering
+  - course: MSc in Environmental Systems Engineering
     institution: Clemson University
     year: 1996
   - course: BEng in Chemical Engineering
@@ -40,18 +40,18 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-  label: Follow me on Twitter
-  display:
-    header: true
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/GeorgeCushen
+#   label: Follow me on Twitter
+#   display:
+#     header: true
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/rjecwilson
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/
@@ -70,6 +70,8 @@ email: ""
 highlight_name: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I work on projects from concept through deployment using system engineering principles, component testing, multi-scale test programs, and system acceptance testing to help solve difficult environmental challenges. I enjoy using {{< icon name="r-project" pack="fab" >}}, data visualization and reproducible data analysis to communicate complex concepts across a broad range of people groups, including scientists, engineers, regulators, stakeholders and decision makers.
+
+I am a lifelong fan of football --- the global version where players use their feet more than their hands --- and have been known to rise well before dawn to watch a match played halfway around the world.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
