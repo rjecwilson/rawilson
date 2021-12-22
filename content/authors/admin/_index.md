@@ -6,7 +6,7 @@ title: Rob Wilson
 superuser: true
 
 # Role/position/tagline
-role: Chemical Engineer / Project Manager / Test Director / Data Science Aficionado
+role: Chemical Engineer / Project Manager / Test Director
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -46,9 +46,9 @@ social:
 #   label: Follow me on Twitter
 #   display:
 #     header: true
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+# - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+#   icon_pack: fas
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/rjecwilson
@@ -70,7 +70,7 @@ email: ""
 highlight_name: true
 ---
 
-I work on projects from concept through deployment using system engineering principles, component testing, multi-scale test programs, and system acceptance testing to help solve difficult environmental challenges. I enjoy using {{< icon name="r-project" pack="fab" >}}, data visualization and reproducible data analysis to communicate complex concepts across a broad range of people groups, including scientists, engineers, regulators, stakeholders and decision makers.
+I work on projects from concept through deployment using system engineering principles, component testing, multi-scale test programs, and system acceptance testing to help solve difficult environmental challenges. I enjoy using {{< icon name="r-project" pack="fab" >}}, data visualization and reproducible data analysis to communicate complex concepts across a broad range of groups, including scientists, engineers, regulators, stakeholders and decision makers.
 
 I am a lifelong fan of football --- the global version where players use their feet more than their hands --- and have been known to rise well before dawn to watch a match played halfway around the world.
 
