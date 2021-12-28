@@ -68,10 +68,14 @@ email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+# {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
 ---
 
-I work on projects from concept through deployment using system engineering principles, component testing, multi-scale test programs, and system acceptance testing to help solve difficult environmental challenges. I enjoy using {{< icon name="r-project" pack="fab" >}}, data visualization and reproducible data analysis to communicate complex concepts across a broad range of groups, including scientists, engineers, regulators, stakeholders and decision makers.
+When asked about my work, I'm fond of describing myself as a chemical engineer by training, a project manager by necessity, and a test director by choice. That's my go-to introduction description and it is a broad generalization. Suffice it to say that during my career I've had the privilege to work with great people on projects trying to remediate waste from the nation's nuclear weapons legacy.
 
-I am a lifelong fan of football --- the global version where players use their feet more than their hands --- and have been known to rise well before dawn to watch a match played halfway around the world.
+As a career arc, cleaning up nuclear waste affords ample opportunity to learn new things --- environmental regulations, government budget cycles, project management, science & engineering tools, technology development, and, importantly, the diverse viewpoints of people. I enjoy applying what I've learned and over the past few years that has led me to using {{< icon name="r-project" pack="fab" >}}, data visualization and reproducible data analysis to communicate complex concepts across a broad range of groups. There are many, many wonderful tools for data analysis but I'm hooked on {{< icon name="r-project" pack="fab" >}}.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I am also a lifelong fan of football --- the global version where players use their feet more than their hands --- and have been known to rise well before dawn to watch a match played halfway around the world.
+
