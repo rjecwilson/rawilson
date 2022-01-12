@@ -8,7 +8,7 @@ tags: [R]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-01-10T17:25:16-08:00'
+lastmod: '2022-01-12T17:25:16-08:00'
 featured: no
 image:
   caption: ''
@@ -18,11 +18,11 @@ projects: []
 share: false
 ---
 
-I came across {{< icon name="r-project" pack="fab" >}} by necessity. A few years ago I was directing an engineering-scale test platform that was collecting data electronically. The test platform included over 30 instruments transmitting data every 30---60 seconds and the platform operated 24 hours a day, 7 days a week when running a test. In rough numbers, the test platform generated 43,000--86,000 data points every operational day and tests lasted from 3 to 13 days.
+I came across the R programming language because of a work project. A few years ago I was directing an engineering-scale test platform that was collecting data electronically. The test platform included 30+ instruments transmitting data every 30---60 seconds and the platform operated 24 hours a day, 7 days a week when running a test. In rough numbers, the test platform generated 43,000--86,000 data points every operational day and tests lasted from 3 to 13 days.
 
 ## Excel - Everybody's Friendly Neighborhood Spreadsheet
 
-Now 43,000 data points per day is not Big Data size, but heading into the project I suspected that typical spreadsheets might struggle when loading, sorting, or visualizing the data. I first tried __Microsoft Excel__ because, naturally, __Excel__ was on hand, enabling direct sharing with project staff. Reading the data into __Excel__ as a .csv file was straightforward. Even manually combining consecutive days of data into a full "data set" was simple enough, if a bit tedious without implementing macros. Manipulating and, in particular, visualizing the data for different test conditions, however, was a slog.
+Now 43,000 data points per day is not Big Data size, but heading into the project I suspected that typical spreadsheets might struggle when loading, sorting, or visualizing the data. I first tried __Microsoft Excel__ because, naturally, __Excel__ was on hand, enabling direct sharing with project staff. Reading the data into __Excel__ as a .csv file was straightforward. Even manually combining consecutive days of data into a full "data set" was simple enough, if a bit tedious without implementing macros. Manipulating and, in particular, visualizing the data for different test conditions, however, was a manual slog.
 
 Sticking with __Excel__ seemed wise given budget and schedule constraints, so I asked "What about pivot tables?" I'd played with pivot tables in the past and a deeper investigation suggested this was a good next step. I did a little more research and dove right in with an early data set from the test platform. The results were...okay, but still required an unsatisfactory amount of manual manipulation. 
 
@@ -30,7 +30,7 @@ I chalk this up to my own personal limitations, not __Excel__ or pivot tables. T
 
 ## Data Viz Here I Come
 
-As most of the project data analysis involved trends, inflection points, and breakthrough curves, a data visualization tool seemed the next logical step. I checked out a few before coming across {{< icon name="r-project" pack="fab" >}} ([cran.r-project.org](http://cran.r-project.org))! At the time, I was looking for a solution with a reasonable learning curve that met basic criteria:
+As most of the project data analysis involved trends, inflection points, and breakthrough curves, a data visualization tool seemed the next logical step. I checked out a few before coming across R ([cran.r-project.org](http://cran.r-project.org))! At the time, I was looking for a solution with a reasonable learning curve that met basic criteria:
 
   - Direct import of .csv files, 
   - No prolonged spinning wheel or software hang ups when manipulating data, 
@@ -38,10 +38,10 @@ As most of the project data analysis involved trends, inflection points, and bre
   - Export of plots to jpeg or png format, and
   - Low entry costs.
 
-{{< icon name="r-project" pack="fab" >}} met the basic criteria but was frequently described as having a steep learning curve. On the other hand, being open-source was a significant advantage --- it negated the need to run the procurement gauntlet, which was neither budget nor schedule friendly. With time running out, I took a chance on {{< icon name="r-project" pack="fab" >}}, using evenings and weekends to learn the programming language.
+A quick review revealed that R readily met the basic criteria and was open-source, but was frequently described online as having a steep learning curve. The potential of a steep learning curve was concerning --- testing was progressing on schedule and there was a well-defined deadline on the horizon. On the other hand, being open-source was a significant advantage --- it negated the need to run the procurement gauntlet, which was neither budget nor schedule friendly. With time running out, I took a chance on R, using evenings and weekends to learn the programming language.
 
 ## The Start of a Journey
 
-In retrospect, the discovery of {{< icon name="r-project" pack="fab" >}} was a bit lucky. I had only a rough idea of the language's capability and the learning curve __was steep__ for me --- an engineer, not  a programmer! As I muddled my way through that first data visualization project, though, the potential of {{< icon name="r-project" pack="fab" >}} was exciting. Statistics! User-developed functions! Scripting! Packages! Reproducible reporting! 
+In retrospect, my discovery of R was a bit lucky. I had only a rough idea of the language's capability and the learning curve __was steep__ for me --- an engineer, not  a programmer! As I muddled my way through that first data visualization project, though, the potential of R was exciting. Statistics! User-developed functions! Scripting! Packages! Reproducible reporting! 
 
 I wanted to know more, more, and more! I had taken the first steps. Who knew what was ahead?
